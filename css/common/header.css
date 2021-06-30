@@ -8,31 +8,64 @@
     background-color: #FFFFFF;
 }
 
-.header .restaurant{
-    float: left;
-    display: flex;
-    align-items: center;
-    width: 500px;
-    height: 100%;
-}
+    .header .restaurant{
+        position: absolute;
+        float: left;
+        display: flex;
+        align-items: center;
+        width: 500px;
+        height: 100%;
+    }
 
-.header .user{
-    position: absolute;
-    right: 0;
-    float:right;
-    width: 200px;
-    height: 100%;
-   
-}
+        .header .restaurant .restaurant-name{
+            margin-left: 24px;
+            margin-right: 10px;
+        }
 
-.arrow {
-    border: solid black;
-    border-width: 0 3px 3px 0;
-    display: inline-block;
-    padding: 3px;
-  }
+        .header .restaurant .arrow {
+            border: solid black;
+            border-width: 0 2px 2px 0;
+            display: inline-block;
+            padding: 3px;
+            border-radius: 20%;
+            margin-bottom: 3px;
+        }
 
-  .down {
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-  }
+        .header .restaurant .down {
+            transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);
+        }
+
+    .header .user{
+        display: flex;
+        position: absolute;
+        right: 0;
+        width: 200px;
+        height: 100%;
+    
+    }
+
+        .header .user .avatar-default{
+            margin-top: 10px;
+            width: 20%;
+            height: 60%;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-image: url(/content/img/avatar-default.png);
+        }
+
+        .header .user .user-name{
+            align-items: center;
+            margin-top: 20px;
+            width: 60%;
+            height: 60%;
+        }
+
+        .header .user .option-icon{
+            align-items:center;
+            margin-top: 18px;
+            width: 20%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-image: url(/content/icon/option.png);
+        }
