@@ -6,6 +6,7 @@
     height: calc(100vh - 230px);
     margin-left: 16px;
     position: relative;
+    overflow:scroll;
 }
 
 table th,td {
@@ -18,3 +19,35 @@ table th,td {
     text-overflow:ellipsis;
     white-space: nowrap;
 }
+
+th{
+    position: sticky;
+    top: 0;
+    background:#ffffff;
+}
+
+tr:nth-child(even){
+    background-color: #e9ebee;
+}
+
+/* scroll */
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #e9ebee; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #bbbbbb; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
