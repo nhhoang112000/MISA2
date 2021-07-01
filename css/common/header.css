@@ -67,4 +67,5 @@
             /* right: 16px; */
             background-repeat: no-repeat;
             background-image: url(../../content/icon/option.png);
+            cursor: pointer;
         }
