@@ -1,0 +1,20 @@
+
+/* grid     */
+ .grid{
+    width: calc(100% - 32px);
+    background-color: #ffffff;
+    height: calc(100vh - 230px);
+    margin-left: 16px;
+    position: relative;
+}
+
+table th,td {
+    border-bottom: 1px solid #bbbbbb;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding: 10px 16px;
+    text-align: left;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}

@@ -1,5 +1,5 @@
 .header{
-    position: relative;
+    position:relative;
     display: flex;
     /* float: left; */
     width: calc(100% - 221px);
@@ -18,8 +18,8 @@
     }
 
         .header .restaurant .restaurant-name{
-            margin-left: 24px;
-            margin-right: 10px;
+            margin-left: 48px;
+            margin-right: 20px;
         }
 
         .header .restaurant .arrow {
@@ -39,33 +39,32 @@
     .header .user{
         display: flex;
         position: absolute;
-        right: 0;
+        align-items: center;
+        justify-content: flex-end;
+        right: 16px;
         width: 200px;
         height: 100%;
-    
     }
 
         .header .user .avatar-default{
-            margin-top: 10px;
-            width: 20%;
-            height: 60%;
+            width: 30px;
+            height: 30px;
             background-repeat: no-repeat;
             background-size: contain;
             background-image: url(../../content/img/avatar-default.png);
         }
 
         .header .user .user-name{
-            align-items: center;
-            margin-top: 20px;
-            width: 60%;
-            height: 60%;
+            margin-left: 16px;
+            margin-right: 16px;
+            align-self: center;
+            text-align: center;
         }
 
         .header .user .option-icon{
-            align-items:center;
-            margin-top: 18px;
-            width: 20%;
-            height: 100%;
+            width: 20px;
+            height: 20px;
+            /* right: 16px; */
             background-repeat: no-repeat;
             background-image: url(../../content/icon/option.png);
         }

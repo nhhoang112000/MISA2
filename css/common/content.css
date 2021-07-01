@@ -4,6 +4,33 @@
     top: 61px;
     width: calc(100% - 221px );
     height: calc( 100vh - 61px );
-    background-color: #E9EBEE;
-
+    background-color: #FFFFFF;
+    /* margin: 16px; */
 }
+
+/* page-title */
+    .content .header-content{
+        padding: 16px;
+        align-items:center;
+        display: flex;
+    }
+
+        .content .header-content .title{
+            font-size: 20px;
+            font-weight: bold;
+            align-items:center;
+        }
+
+        .content .header-content .content-feature{
+            position: absolute;
+            right: 16px;
+        }
+
+
+
+/* paging-bar */
+    .content .paging-bar{
+        height: 56px;
+        background-color:red;
+        margin: 0 16px 16px 16px;
+    }

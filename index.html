@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="./css/common/navbar.css">
     <link rel="stylesheet" href="./css/page/employee.css">
     <link rel="stylesheet" href="./css/common/content.css">
+    <link rel="stylesheet" href="./css/common/icon.css">
+    <link rel="stylesheet" href="./css/common/button.css">
+    <link rel="stylesheet" href="./css/common/toolbar.css">
+    <link rel="stylesheet" href="./css/common/input.css">
+    <link rel="stylesheet" href="./css/common/grid.css">
+
     <title>Document</title>
 </head>
 <body>
@@ -54,10 +60,140 @@
         </div>
         <div class="user">
             <div class="avatar-default"></div>
-            <div class="user-name">Nguyễn Văn Mạnh</div>
+            <div class="user-name">Nguyễn Huy Hoàng</div>
             <div class="option-icon"></div>
         </div>
     </div>
-    <div class="content">content</div>
+    <div class="content">
+        <div class="header-content">
+            <div class="title">Danh sách nhân viên</div>
+            <div class="content-feature">
+                <button class="m-btn m-btn-default">
+                    <div class="m-btn-icon icon-add"></div>
+                    <div class="m-btn-text">Thêm nhân viên</div>
+                </button>
+            </div>
+        </div>
+        <div class="filter-bar">
+            <div class="filter-left">
+                <input class="icon-search input-search" type="text" style="width: 300px" placeholder="Tìm kiếm theo Mã, Tên hoặc số điện thoại">
+                <!-- <select>
+                    <option value="">Tất cả phòng ban</option>
+                    <option value="">Tất cả phòng ban</option>
+                    <option value="">Tất cả phòng ban</option>
+                    <option value="">Tất cả phòng ban</option>
+                    <option value="">Tất cả phòng ban</option>
+                </select>  -->
+            </div>
+            <div class="filter-right">
+                <button class="m-btn-refresh m-second-button"></button>
+            </div>
+        </div>
+        <div class="grid grid-employee">
+            <table border="0" cellspacing="0" width="100%">
+                <thead>
+                    <tr>
+                        <th>Mã nhân viên</th>
+                        <th>Họ và tên</th>
+                        <th>Giới tính</th>
+                        <th>Ngày sinh</th>
+                        <th>Điện thoại</th>
+                        <th>Email</th>
+                        <th>Chức vụ</th>
+                        <th>Phòng ban</th>
+                        <th>Mức lương cơ bản</th>
+                        <th>Tình trạng công việc</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>MF910</td>
+                        <td>Nguyễn Huy Hoàng</td>
+                        <td>Nam</td>
+                        <td>01/01/2000</td>
+                        <td>0889018689</td>                        
+                        <td style="max-width: 100px;">nguyenhuyhoang112k@gmail.com nguyenhuyhoang112k@gmail.com nguyenhuyhoang112k@gmail.com nguyenhuyhoang112k@gmail.com</td>
+                        <td>Nhân viên</td>
+                        <td>Phòng công nghệ</td>
+                        <td>9500000</td>
+                        <td style="max-width: 100px;">Đang thử việc nguyenhuyhoang112k@gmail.com nguyenhuyhoang112k@gmail.com nguyenhuyhoang112k@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>MF910</td>
+                        <td>Nguyễn Huy Hoàng</td>
+                        <td>Nam</td>
+                        <td>01/01/2000</td>
+                        <td>0889018689</td>                        
+                        <td>nguyenhuyhoang112k@gmail.com</td>
+                        <td>Nhân viên</td>
+                        <td>Phòng công nghệ</td>
+                        <td>9500000</td>
+                        <td>Đang thử việc</td>
+                    </tr>
+                    <tr>
+                        <td>MF910</td>
+                        <td>Nguyễn Huy Hoàng</td>
+                        <td>Nam</td>
+                        <td>01/01/2000</td>
+                        <td>0889018689</td>                        
+                        <td>nguyenhuyhoang112k@gmail.com</td>
+                        <td>Nhân viên</td>
+                        <td>Phòng công nghệ</td>
+                        <td>9500000</td>
+                        <td>Đang thử việc</td>
+                    </tr>
+                    <tr>
+                        <td>MF910</td>
+                        <td>Nguyễn Huy Hoàng</td>
+                        <td>Nam</td>
+                        <td>01/01/2000</td>
+                        <td>0889018689</td>                        
+                        <td>nguyenhuyhoang112k@gmail.com</td>
+                        <td>Nhân viên</td>
+                        <td>Phòng công nghệ</td>
+                        <td>9500000</td>
+                        <td>Đang thử việc</td>
+                    </tr>
+                    <tr>
+                        <td>MF910</td>
+                        <td>Nguyễn Huy Hoàng</td>
+                        <td>Nam</td>
+                        <td>01/01/2000</td>
+                        <td>0889018689</td>                        
+                        <td>nguyenhuyhoang112k@gmail.com</td>
+                        <td>Nhân viên</td>
+                        <td>Phòng công nghệ</td>
+                        <td>9500000</td>
+                        <td>Đang thử việc</td>
+                    </tr>
+                    <tr>
+                        <td>MF910</td>
+                        <td>Nguyễn Huy Hoàng</td>
+                        <td>Nam</td>
+                        <td>01/01/2000</td>
+                        <td>0889018689</td>                        
+                        <td>nguyenhuyhoang112k@gmail.com</td>
+                        <td>Nhân viên</td>
+                        <td>Phòng công nghệ</td>
+                        <td>9500000</td>
+                        <td>Đang thử việc</td>
+                    </tr>
+                    <tr>
+                        <td>MF910</td>
+                        <td>Nguyễn Huy Hoàng</td>
+                        <td>Nam</td>
+                        <td>01/01/2000</td>
+                        <td>0889018689</td>                        
+                        <td>nguyenhuyhoang112k@gmail.com</td>
+                        <td>Nhân viên</td>
+                        <td>Phòng công nghệ</td>
+                        <td>9500000</td>
+                        <td>Đang thử việc</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="paging-bar"></div>
+    </div>
 </body>
 </html>

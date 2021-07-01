@@ -50,14 +50,14 @@
         line-height: 44px;
     }
 
- .navbar .navbar-content .nav-item:hover{
+    .navbar .navbar-content .nav-item:hover{
         background-color:#e5e5e5   ;
         color: #000000;
     }
 
- .navbar .navbar-content .nav-item .nav-item-icon{
-    width: 37px;
-    height: 44px;
+    .navbar .navbar-content .nav-item .nav-item-icon{
+    width: 20px;
+    height: 20px;
     align-self: center;
     margin-right: 10px;
     background-repeat: no-repeat;
