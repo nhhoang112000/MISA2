@@ -51,7 +51,7 @@
             height: 60%;
             background-repeat: no-repeat;
             background-size: contain;
-            background-image: url(/MISA2/content/img/avatar-default.png);
+            background-image: url(../../content/img/avatar-default.png);
         }
 
         .header .user .user-name{
@@ -67,5 +67,5 @@
             width: 20%;
             height: 100%;
             background-repeat: no-repeat;
-            background-image: url(/MISA2/content/icon/option.png);
+            background-image: url(../../content/icon/option.png);
         }
