@@ -13,8 +13,9 @@
     <link rel="stylesheet" href="./css/common/toolbar.css">
     <link rel="stylesheet" href="./css/common/input.css">
     <link rel="stylesheet" href="./css/common/grid.css">
+    <link rel="stylesheet" href="./css/common/select.css">
 
-    <title>Document</title>
+    <title>MISACukCuk</title>
 </head>
 <body>
     <div class="navbar">
@@ -76,26 +77,46 @@
         </div>
         <div class="filter-bar">
             <div class="filter-left">
-                <input class="icon-search input-search" type="text" style="width: 300px" placeholder="Tìm kiếm theo Mã, Tên hoặc số điện thoại">
-                <select class="drop-list1">
-                    <option value="">Tất cả phòng ban</option>
-                    <option value="">Tất cả phòng ban</option>
-                    <option value="">Tất cả phòng ban</option>
-                    <option value="">Tất cả phòng ban</option>
-                    <option value="">Tất cả phòng ban</option>
-                </select> 
-                <select class="drop-list2">
+                <input class="icon-search input-search" type="text" style="width: 260px;font-family: GoogleSans-Regular;" placeholder="Tìm kiếm theo Mã, Tên hoặc số điện thoại" onfocus="this.placeholder=''" onblur="this.placeholder='Tìm kiếm theo Mã, Tên hoặc số điện thoại'">
+                <!-- <select class="drop-list-default drop-list-1">
+                    <option value="1">Tất cả phòng ban</option>
+                    <option value="2">Tất cả phòng ban</option>
+                    <option value="3">Tất cả phòng ban</option>
+                    <option value="4">Tất cả phòng ban</option>
+                    <option value="5">Tất cả phòng ban</option>
+                </select>  -->
+                <!-- Surround the select box within a "custom-select" DIV element.
+                Remember to set the width: -->
+                <div class="custom-select" style="width:200px;">
+                    <select>
+                    <option value="0">Tất cả phòng ban</option>
+                    <option value="1">Audi</option>
+                    <option value="2">BMW</option>
+                    <option value="3">Citroen</option>
+                    <option value="4">Ford</option>
+                    <option value="5">Honda</option>
+                    <option value="6">Jaguar</option>
+                    <option value="7">Land Rover</option>
+                    <option value="8">Mercedes</option>
+                    <option value="9">Mini</option>
+                    <option value="10">Nissan</option>
+                    <option value="11">Toyota</option>
+                    <option value="12">Volvo</option>
+                    </select>
+                </div>
+                <!-- <select class="drop-list-default drop-list-2">
                     <option value="">Tất cả vị trí</option>
                     <option value="">Tất cả vị trí</option>
                     <option value="">Tất cả vị trí</option>
                     <option value="">Tất cả vị trí</option>
-                </select>
+                </select> -->
             </div>
+           
             <div class="filter-right">
                 <button class="m-btn-refresh m-second-button"></button>
             </div>
         </div>
-        <div class="grid grid-employee">
+        <div class="grid grid-employee"> 
             <table border="0" cellspacing="0" width="100%">
                 <thead>
                     <tr>
@@ -366,8 +387,15 @@
                     </tr>
                 </tbody>
             </table>
-        </div>
-        <div class="paging-bar"></div>
+        </div> -->
+        <!-- <div class="paging-bar">
+            <div class="paging-left-text">Hiển thị 1-10/1000 nhân viên</div>
+            <div class="paging-middle-btn"></div>
+            <div class="paging-right-text">10 nhân viên/trang</div>
+        </div> -->
     </div>
+
+<script src="./customSelect.js"></script>
+
 </body>
 </html>

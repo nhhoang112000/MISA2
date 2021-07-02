@@ -5,6 +5,10 @@ input{
     border: 1px solid #bbbbbb;
 }
 
+    input:focus{
+        border: 1px solid #019160;
+        
+    }
 .input-search{
     padding-left: 40px;
 }

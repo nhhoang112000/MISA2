@@ -8,6 +8,7 @@
 }
 
     .filter-bar .filter-left{
+        display: flex;
         position: absolute;
         left: 16px;
     }
@@ -16,6 +17,27 @@
         position: absolute;
         right: 16px;
     }
+
+.drop-list-default{
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    position: absolute;
+    width: 170px;
+    height: 100%;
+}    
+
+
+
+.drop-list-1{
+    
+    position: absolute;
+    margin-left: 16px;
+}
+
+.drop-list-2{
+    position: absolute;
+    margin-left: calc(170px + 32px);
+}
 
 /* table{
     border: none;
